@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(198, 196, 196);
+}
+
+.heading {
+    margin: auto;
+    padding: 1px;
+    background-color: rgb(238, 236, 66);
+    border: 2px solid;
+    margin-bottom: 2px;
+}
+
+#add {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    width: 75px;
+    background-color: rgb(238, 236, 66);
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.operation {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+.edit {
+    margin-left: 75%;
+    padding: auto;
+    background-color: rgb(148, 239, 148);
+    border: none;
+    border-radius: 2px;
+
+}
+
+.delete {
+    margin-left: 0;
+    padding: auto;
+    background-color: rgb(239, 84, 84);
+    border: none;
+    border-radius: 2px;
+
+}
+
+.notes {
+    height: 80px;
+    width: 160px;
+    /* border: 2px solid */
+}
+
+.hidden {
+    display: none;
+}
